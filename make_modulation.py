@@ -65,7 +65,7 @@ def main():
         BoxSize = bb.attrs['BoxSize'][0]
         Redshift = 1 / bb.attrs['ScalingFactor'][0] - 1
 
-    Nmesh = int(BoxSize / ns.resolution)
+    Nmesh = int(BoxSize / ns.resolution * 2)
     # round it to 8.
     Nmesh -= Nmesh % 8
 
@@ -136,7 +136,7 @@ def main():
                 bb.write(0, bins)
 
     if comm.rank == 0:
-        logger.info("done. written at ", ns.output)
+        logger.info("done. written at %s", ns.output)
 
 if __name__ == '__main__':
     main()
