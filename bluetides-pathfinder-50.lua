@@ -17,7 +17,8 @@ output_redshifts= {10.0}  -- redshifts of output
 -- Cosmology --
 omega_m = 0.2814
 h       = 0.697
-
+sigma8  = 0.820
+--
 -- Start with a power spectrum file
 -- Initial power spectrum: k P(k) in Mpc/h units
 -- Must be compatible with the Cosmology parameter
