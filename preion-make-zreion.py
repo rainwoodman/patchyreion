@@ -28,7 +28,7 @@ import logging
 from mpi4py import MPI
 import numpy
 
-ap = argparse.ArgumentParser("Patchy Reionization modulation field from a fastpm output")
+ap = argparse.ArgumentParser("preion-make-zreion.py")
 ap.add_argument("fastpm", help='Non-linear particle data from FastPM')
 ap.add_argument("output", help='name of bigfile to store the mesh')
 ap.add_argument("--dataset", default='Zreion_table', help='name of the dataset that stores the reionization redshift')
