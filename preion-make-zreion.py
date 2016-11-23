@@ -5,8 +5,8 @@
     Thus there is a correlation between density field and the reionization
     time (time the UV background penetrates the IGM).
 
-    This script implements a correlation model
-    (citation needed, Battaglia et al) 
+    This script implements a correlation model in Battaglia et al. 2013
+    http://adsabs.harvard.edu/abs/2013ApJ...776...81B
 
     The model is used in BlueTides Simulation.
 
